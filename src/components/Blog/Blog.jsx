@@ -2,12 +2,12 @@
 import victor from '../../assets/Frame (2).svg'
 import fraim from '../../assets/Frame (1).svg'
 import PropTypes from 'prop-types'; 
-const Blog = ({blog}) => {
-    const {recipe_img,recipe_name,short_description,ingredients,preparing_time_minutes,calories}  =blog
+const Blog = ({blog,handleAddToBookmark}) => {
+    const {recipe_img,recipe_name,short_description,ingredients,preparing_time_minutes,calories}  =blog;
 
    
     return (
-        <div className='w-[400px] h-[690px] bg-[#1C1C1C33] p-8 rounded-3xl space-y-2 my-5'>
+        <div className='w-[400px] h-[700px] shadow-lg  p-8 rounded-3xl space-y-2 mb-7'>
         <img className='w-[331px] h-[200px]' src={recipe_img} alt="" />
          <h1 className='text-2xl font-semibold'>{recipe_name}</h1>
         
@@ -33,12 +33,17 @@ const Blog = ({blog}) => {
                 <p>{calories}</p>
             </div>
          </div>
-         <button className='btn bg-[#02b76c] rounded-full text-xl font-bold'>Want to Cook</button>
+         <button
+         onClick={()=>handleAddToBookmark(blog)}
+         className='btn bg-[#02b76c] rounded-full text-xl font-bold'>Want to Cook</button>
+         
         </div>
+
     );
 };
 
 Blog.propTypes={
-    blog:PropTypes.object.isRequired
+    blog:PropTypes.object.isRequired,
+    handleAddToBookmark: PropTypes.func
 }
 export default Blog;

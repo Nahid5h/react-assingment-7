@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_img": "https://i.ibb.co/Y0bRWg6/goodeats-yqr-Fy-Yuls-J3rxo-unsplash.jpg",
+      "recipe_id": "12345",
+      "recipe_name": "Spicy Chicken Stir-Fry",
+      "short_description": "A flavorful and quick stir-fry dish with tender chicken and fresh vegetables.",
+      "ingredients": ["Chicken breast", "Bell peppers", "Onion", "Broccoli", "Soy sauce", "Garlic", "Ginger", "Chili flakes"],
+      "preparing_time_minutes": 25,
+      "calories": "320 calories"
+    },
+    {
+      "recipe_img": "https://i.ibb.co/42M8nBQ/goodeats-yqr-O0-As-Edq-Ez-PQ-unsplash.jpg",
+      "recipe_id": "67890",
+      "recipe_name": "Vegetarian Quinoa Salad",
+      "short_description": "A nutritious salad packed with protein-rich quinoa, fresh veggies, and a tangy dressing.",
+      "ingredients": ["Quinoa", "Tomatoes", "Cucumber", "Red onion", "Bell pepper", "Feta cheese", "Olive oil", "Lemon juice"],
+      "preparing_time_minutes": 20,
+      "calories": "250 calories"
+    },
+    {
+      "recipe_img": "https://i.ibb.co/YTT0N41/edgar-castrejon-J04-BD4ysoh8-unsplash.jpg",
+      "recipe_id": "24680",
+      "recipe_name": "Creamy Mushroom Risotto",
+      "short_description": "Indulge in a creamy and comforting risotto with earthy mushrooms and Parmesan cheese.",
+      "ingredients": ["Arborio rice", "Mushrooms", "Onion", "Garlic", "Vegetable broth", "Butter", "Parmesan cheese", "White wine"],
+      "preparing_time_minutes": 40,
+      "calories": "380 calories"
+    },
+    {
+      "recipe_img": "https://i.ibb.co/0C8TVRR/fabio-alves-DTTsj7-Zy0-KE-unsplash.jpg",
+      "recipe_id": "13579",
+      "recipe_name": "Tangy Lemon Chicken",
+      "short_description": "Zesty lemon chicken marinated in herbs and spices, perfect for a refreshing dinner.",
+      "ingredients": ["Chicken thighs", "Lemon", "Garlic", "Olive oil", "Thyme", "Rosemary", "Salt", "Black pepper"],
+      "preparing_time_minutes": 30,
+      "calories": "290 calories"
+    },
+    {
+      "recipe_img": "https://i.ibb.co/vD72835/goodeats-yqr-vfc3-DTPh7-XI-unsplash.jpg",
+      "recipe_id": "54321",
+      "recipe_name": "BBQ Jackfruit Tacos",
+      "short_description": "Satisfy your cravings with these flavorful vegan tacos filled with BBQ jackfruit and fresh toppings.",
+      "ingredients": ["Jackfruit", "BBQ sauce", "Tortillas", "Cabbage", "Avocado", "Cilantro", "Lime", "Red onion"],
+      "preparing_time_minutes": 35,
+      "calories": "220 calories"
+    },
+    {
+      "recipe_img": "https://i.ibb.co/q9RDxCc/hoyoun-lee-Eku13-VAwz-UE-unsplash.jpg",
+      "recipe_id": "98765",
+      "recipe_name": "Caprese Pasta Salad",
+      "short_description": "A refreshing pasta salad featuring the classic flavors of Caprese with tomatoes, mozzarella, and basil.",
+      "ingredients": ["Pasta", "Tomatoes", "Fresh mozzarella", "Basil", "Balsamic vinegar", "Olive oil", "Garlic", "Salt"],
+      "preparing_time_minutes": 25,
+      "calories": "300 calories"
+    }
+  ]
+  
